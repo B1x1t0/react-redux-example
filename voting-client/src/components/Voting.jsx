@@ -10,9 +10,7 @@ export default React.createClass({
   render: function() {
     return <div className="voting">
       {this.getPair().map(entry =>
-        <button key={entry}>
-          <h1>{entry}</h1>
-        </button>
+        <div></div>
       )}
     </div>;
   }
