@@ -2,7 +2,7 @@
  * Created by inmaculada on 17/11/15.
  */
 import makeStore from './src/store';
-import startServer from './src/server';
+import {startServer} from './src/server';
 
 export const store = makeStore();
 startServer(store);
